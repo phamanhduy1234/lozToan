@@ -1,8 +1,10 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
 // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-librariesabc
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  const firebaseConfig = {
+// Your web app's Firebase configuration
+const firebaseConfig = {
   apiKey: "AIzaSyDHc2jfrh4b38ctfEXNT09IdDPh6Q-EsfI",
   authDomain: "loztoan.firebaseapp.com",
   databaseURL: "https://loztoan-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -10,8 +12,10 @@
   storageBucket: "loztoan.appspot.com",
   messagingSenderId: "573098348380",
   appId: "1:573098348380:web:c8c7dd5a37371569b43b99"
-  };
-  firebase.initializeApp(firebaseConfig);
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
   // Initialize Firebase
   var database = firebase.database();
 
