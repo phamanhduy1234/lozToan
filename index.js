@@ -1,25 +1,19 @@
-// Import the functions you need from the SDKs you need
-import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
-import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-database.js";
 // TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-// Your web app's Firebase configuration
-const firebaseConfig = {
-
-  apiKey: "AIzaSyDHc2jfrh4b38ctfEXNT09IdDPh6Q-EsfI",
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+   apiKey: "AIzaSyDHc2jfrh4b38ctfEXNT09IdDPh6Q-EsfI",
   authDomain: "loztoan.firebaseapp.com",
   databaseURL: "https://loztoan-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "loztoan",
   storageBucket: "loztoan.appspot.com",
   messagingSenderId: "573098348380",
   appId: "1:573098348380:web:c8c7dd5a37371569b43b99"
-  
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-const database = getDatabase(app);
+  };
+  firebase.initializeApp(firebaseConfig);
+  // Initialize Firebase
+  var database = firebase.database();
 
 send.addEventListener('click',(e) =>{ 
 Sends();
