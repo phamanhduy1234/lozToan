@@ -3,7 +3,7 @@
 
   // Your web app's Firebase configuration
   const firebaseConfig = {
-   apiKey: "AIzaSyDHc2jfrh4b38ctfEXNT09IdDPh6Q-EsfI",
+  apiKey: "AIzaSyDHc2jfrh4b38ctfEXNT09IdDPh6Q-EsfI",
   authDomain: "loztoan.firebaseapp.com",
   databaseURL: "https://loztoan-default-rtdb.asia-southeast1.firebasedatabase.app",
   projectId: "loztoan",
